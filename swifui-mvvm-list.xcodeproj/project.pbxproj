@@ -29,9 +29,31 @@
 		842511262DB760B80093A4B6 /* swifui-mvvm-listUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swifui-mvvm-listUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8406873F2DB78A3200CCD2FD /* Exceptions for "swifui-mvvm-list" folder in "swifui-mvvm-listUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/Claim.swift,
+				Services/APIService.swift,
+			);
+			target = 842511252DB760B80093A4B6 /* swifui-mvvm-listUITests */;
+		};
+		840687472DB8734F00CCD2FD /* Exceptions for "swifui-mvvm-list" folder in "swifui-mvvm-listTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Services/APIService.swift,
+			);
+			target = 8425111B2DB760B80093A4B6 /* swifui-mvvm-listTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8425110E2DB760B60093A4B6 /* swifui-mvvm-list */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				840687472DB8734F00CCD2FD /* Exceptions for "swifui-mvvm-list" folder in "swifui-mvvm-listTests" target */,
+				8406873F2DB78A3200CCD2FD /* Exceptions for "swifui-mvvm-list" folder in "swifui-mvvm-listUITests" target */,
+			);
 			path = "swifui-mvvm-list";
 			sourceTree = "<group>";
 		};
